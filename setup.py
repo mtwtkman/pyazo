@@ -1,16 +1,18 @@
 from setuptools import setup
+import os
 
 
-__version__ = '0.0.1'
+__version__ = '0.0.3'
 
-with open('README.md') as f:
-    __readme__ = f.read()
+
+def read(readme):
+    return open(os.path.join(os.path.dirname(__file__), readme)).read()
+
 
 setup(
     name='pyazo',
     version=__version__,
     description = 'Gyazo API client',
-    long_description=__readme__,
     author='mtwtkman',
     url='https://github.com/mtwtkman/pyazo',
     install_requires=['requests']

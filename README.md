@@ -8,6 +8,14 @@ Gyazo access token.
 
 (You can register your application from [here](https://gyazo.com/oauth/applications).)
 
+# Install
+
+from pypi
+
+```
+pip install
+```
+
 # Usage
 ```
 from pyazo import Pyazo
