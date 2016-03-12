@@ -33,7 +33,7 @@ p.delete('image_id')
 p.oembed('image.url')
 
 # upload with Gyazo session(requires client_id)
-p.upload_eash_auth('image.url', 'referer.url')
+p.upload_easy_auth('image.url', 'referer.url')
 ```
 
 Gyazo API detail is [here](https://gyazo.com/api/docs).
