@@ -30,4 +30,4 @@ p.oembed('image.url')
 p.upload_eash_auth('image.url', 'referer.url')
 ```
 
-GYAZO API detail is [here](https://gyazo.com/api/docs).
+Gyazo API detail is [here](https://gyazo.com/api/docs).
