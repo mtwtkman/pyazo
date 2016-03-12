@@ -13,7 +13,7 @@ Gyazo access token.
 from pypi
 
 ```
-pip install
+pip install pyazo
 ```
 
 # Usage
