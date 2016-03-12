@@ -2,8 +2,6 @@
 Gyazo API client implemented by python.
 
 # Required
-python3+
-
 requests
 
 Gyazo access token.
